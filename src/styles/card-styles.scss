@@ -1,0 +1,104 @@
+@import 'variables.scss';
+
+.card-container {
+  background-color: $color-white;
+  width: fit-content;
+  border-radius: 1.5rem;
+
+  .hero-image-section {
+    // z-index: 1;
+    border-radius: 1rem;
+    position: relative;
+
+    svg {
+      border-radius: 1rem 1rem 0 0;
+    }
+  }
+
+  .details-container {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .header-and-details {
+      text-align: center;
+
+      h2 {
+        margin-top: 2rem;
+        margin-bottom: 1.1rem;
+      }
+
+
+      p.order-summary-text {
+        max-width: 20rem;
+        font-weight: 100;
+        color: $light-blue;
+        margin-bottom: 1.5rem;
+      }
+
+    }
+
+    .plan-container {
+      width: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: $pale-blue;
+      padding: 1rem 1.5rem;
+      border-radius: .5rem;
+      margin-bottom: 1.5rem;
+
+      .lhs {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+      }
+
+      .rhs {
+        a:active {
+          text-decoration: none;
+          color: $desaturated-blue;
+        }
+      }
+    }
+
+    .payment-btn {
+      background-color: $bright-blue;
+      color: $color-white;
+      border: none;
+      padding: 1rem;
+      width: 80%;
+      border-radius: .8rem;
+      font-weight: 500;
+
+      // box shadow
+      -webkit-box-shadow: -1px 21px 24px -4px rgba(40, 33, 237, 0.32);
+      -moz-box-shadow: -1px 21px 24px -4px rgba(40, 33, 237, 0.32);
+      box-shadow: -1px 21px 24px -4px rgba(40, 33, 237, 0.32);
+      cursor: pointer;
+
+      &:active {
+        background-color: $light-blue;
+      }
+
+    }
+
+    .cancel-btn {
+      cursor: pointer;
+      margin-top: 2rem;
+      margin-bottom: 2.5rem;
+      color: $desaturated-blue;
+
+      &:active {
+        color: $dark-blue;
+      }
+    }
+  }
+}
+
+.sub-title {
+  color: $light-blue;
+}

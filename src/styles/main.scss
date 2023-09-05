@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Poppins:wght@500&family=Red+Hat+Display:wght@500;600;700;900&display=swap');
-$pale-blue: hsl(225, 100%, 98%);
-$dark-blue: hsl(224, 23%, 80%);
-$font-family-outfit: 'Outfit', sans-serif;
-$font-family-poppins: 'Poppins', sans-serif;
-$font-family-red-hat-display: 'Red Hat Display', sans-serif;
+@import 'card-styles', 'variables.scss';
 
 * {
   margin: 0;
@@ -19,5 +15,8 @@ div.app {
   background-color: $pale-blue;
   height: 100vh;
   width: 100vw;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
