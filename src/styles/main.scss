@@ -20,3 +20,9 @@ div.app {
   justify-content: center;
   overflow: hidden;
 }
+
+@media (max-width: 375px) {
+  body {
+    font-size: 14px;
+  }
+}

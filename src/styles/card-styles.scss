@@ -4,8 +4,11 @@
   background-color: $color-white;
   width: fit-content;
   border-radius: 1.5rem;
+  -webkit-box-shadow: -1px 32px 24px -4px rgba(40, 33, 237, 0.09);
+  -moz-box-shadow: -1px 32px 24px -4px rgba(40, 33, 237, 0.09);
+  box-shadow: -1px 32px 24px -4px rgba(40, 33, 237, 0.09);
 
-  .hero-image-section {
+  Copy Text .hero-image-section {
     // z-index: 1;
     border-radius: 1rem;
     position: relative;
@@ -101,4 +104,28 @@
 
 .sub-title {
   color: $light-blue;
+}
+
+@media (max-width: 375px) {
+  .card-container {
+    width: 90vw;
+    overflow: hidden;
+
+    .hero-image-section {
+      .hero-svg {
+        margin-left: -2rem;
+        height: auto;
+      }
+    }
+
+    .details-container {
+      .header-and-details {
+        p.order-summary-text {
+          max-width: 16.5rem;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
 }
