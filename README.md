@@ -28,7 +28,7 @@ I'm a Front-end developer, working with JavaScript/TypeScript Angular/React
 
 
 ### 🛠 Tech Stack (Skills and Tools)
-**Client:** Javascript, HTML, CSS & SCSS
+**Client:** Javascript, HTML, CSS & SCSS  
 **Build Tool** Vite
 
 ### Features
