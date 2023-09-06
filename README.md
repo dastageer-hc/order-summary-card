@@ -22,8 +22,8 @@ Your users should be able to:
 I'm a Front-end developer, working with JavaScript/TypeScript Angular/React
 
 📫 How to reach me... 
-[LinkedIn](https://www.linkedin.com/in/dastageer-hc/)
-[dastageer.in](https://dastageer.in)
+- [LinkedIn](https://www.linkedin.com/in/dastageer-hc/)
+- [dastageer.in](https://dastageer.in)
 
 
 
