@@ -1,6 +1,7 @@
 @import 'variables.scss';
 
 .card-container {
+  overflow: hidden;
   background-color: $color-white;
   width: fit-content;
   border-radius: 1.5rem;
