@@ -14,7 +14,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 Your users should be able to:
 
-- See hover states for interactive elements
+- See hover states for interactive elements 
 
 
 **To do this challenge, you need a basic understanding of HTML and CSS.**
